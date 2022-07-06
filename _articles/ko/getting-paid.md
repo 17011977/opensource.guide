@@ -3,11 +3,6 @@ lang: ko
 title: 오픈소스 작업에 대한 비용 지불하기
 description: 시간이나 프로젝트에 대한 재정적 지원을 받음으로써 오픈소스에서의 작업을 지속합니다.
 class: getting-paid
-toc:
-  why-some-people-seek-financial-support: "어떤 사람들은 왜 재정 지원을 요청 하는가"
-  funding-your-own-time: "시간 펀딩하기"
-  finding-funding-for-your-project: "프로젝트 펀딩 찾기"
-  building-a-case-for-financial-support: "재정 지원 사례 구축하기"
 order: 7
 image: /assets/images/cards/getting-paid.png
 related:
@@ -15,7 +10,7 @@ related:
   - leadership
 ---
 
-## Why some people seek financial support
+## 왜 누군가는 재정적 지원을 찾을까
 
 대부분의 오픈소스 작업은 자원봉사입니다. 예를 들어, 누군가가 사용하는 프로젝트에서 버그를 발견하고 빠른 버그픽스를 제출하거나, 여가 시간에 오픈소스 프로젝트를 사용하여 재미있는 작업을 할 수 있습니다.
 
@@ -37,7 +32,7 @@ I was looking for a "hobby" programming project that would keep me occupied duri
   <img src="https://avatars.githubusercontent.com/alloy?s=180" class="pquote-avatar" alt="avatar">
   Financial donations do add a feeling of responsibility, for some. (...) It's important for us, in the globally connected, fast-paced world we live in, to be able to say "not now, I feel like doing something completely different".
   <p markdown="1" class="pquote-credit">
-— @alloy, ["우리가 왜 기여를 허락하면 안되는가"](http://blog.cocoapods.org/Why-we-dont-accept-donations/)
+— @alloy, ["우리가 왜 기여를 허락하면 안되는가"](https://blog.cocoapods.org/Why-we-dont-accept-donations/)
   </p>
 </aside>
 
@@ -59,13 +54,13 @@ I was looking for a "hobby" programming project that would keep me occupied duri
   <img src="https://avatars.githubusercontent.com/isaacs?s=180" class="pquote-avatar" alt="avatar">
    OSS yields massive benefits to the technology industry, which, in turn, means benefits to all industries. (...) However, if the only people who can focus on it are the lucky and the obsessed, then there's a huge untapped potential.
   <p markdown="1" class="pquote-credit">
-— @isaacs, ["현금과 오픈소스"](https://medium.com/open-source-life/money-and-open-source-d44a1953749c#.ftnd5qez0)
+— @isaacs, ["현금과 오픈소스"](https://medium.com/open-source-life/money-and-open-source-d44a1953749c)
   </p>
 </aside>
 
 재정 지원을 찾고 있다면, 고려해야 할 두 가지 경로가 있습니다. 기여자로서 자신의 시간을 투자하거나, 프로젝트에 대한 조직 자금을 찾을 수 있습니다.
 
-## Funding your own time
+## 당신이 들인 시간에 대한 펀딩을 받기
 
 오늘날, 많은 사람들이 오픈소스에서 파트 타임 또는 풀 타임으로 일하기 위해 돈을 받습니다. 당신의 시간에 대한 대금을 받는 가장 일반적인 방법은 고용주와 상담하는 것입니다.
 
@@ -99,17 +94,18 @@ I was looking for a "hobby" programming project that would keep me occupied duri
 
 현 고용주가 오픈소스 업무의 우선 순위를 결정할 수 없다면, 직원의 오픈소스 기여도를 높이는 새로운 고용주를 찾는 것이 좋습니다. 오픈소스 작업에 대한 헌신을 분명히 하는 회사를 찾아보십시오. 예시입니다 :
 
-* 일부 회사는, [넷플릭스](https://netflix.github.io/)혹은 [페이팔](http://paypal.github.io/)처럼, 오픈소스에 대한 그들의 참여를 강조하는 웹 사이트를 가지고있습니다
-* [Rackspace](https://www.rackspace.com/en-us)는 직원을 위한 [오픈소스 기여 정책](https://blog.rackspace.com/rackspaces-policy-on-contributing-to-open-source/)을 게시했습니다
+* 일부 회사는, [넷플릭스](https://netflix.github.io/)혹은 [페이팔](https://paypal.github.io/)처럼, 오픈소스에 대한 그들의 참여를 강조하는 웹 사이트를 가지고있습니다
+* [Zalando](https://opensource.zalando.com)는 직원을 위한 [오픈소스 기여 정책](https://opensource.zalando.com/docs/using/contributing/)을 게시했습니다
 
 [Go](https://github.com/golang)또는 [React](https://github.com/facebook/react)와 같은 대기업에서 시작된 프로젝트도, 오픈소스 작업에 사람들을 고용 할 가능성이 높습니다.
 
 마지막으로, 개인적인 상황에 따라, 오픈소스 작업을 위해 독립적으로 돈을 모으는 노력을 할 수 있습니다. 예시:
 
-* @gaearon은 [Patreon crowdfunding campaign](http://redux.js.org/)을 통해 [Redux](https://github.com/reactjs/redux)에 대한 그의 작업에 펀드했습니다.
+* @Homebrew (and [many other maintainers and organizations](https://github.com/sponsors/community)) fund their work through [GitHub Sponsors](https://github.com/sponsors)
+* @gaearon은 [Patreon crowdfunding campaign](https://redux.js.org/)을 통해 [Redux](https://github.com/reactjs/redux)에 대한 그의 작업에 펀드했습니다.
 * @andrewgodwin은 Django 스키마 마이그레이션 작업을 [Kickstarter 캠페인을 통해](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django) 펀드했습니다.
 
-## Finding funding for your project
+## 당신의 프로젝트에 대한 펀딩을 찾기
 
 개인 기여자를 위한 준비 외에도, 때로는 프로젝트가 회사, 개인 또는 다른 사람들로부터 지속적인 자금 마련을 위해 펀드를 모으는 경우가 있습니다.
 
@@ -134,7 +130,7 @@ I was looking for a "hobby" programming project that would keep me occupied duri
 * **[Travis CI](https://github.com/travis-ci)** 는 제품의 유료 버전을 제공합니다
 * **[Ghost](https://github.com/TryGhost/Ghost)** 는 유료 관리 서비스가 있는 비영리 단체입니다
 
-[npm](https://github.com/npm/npm) 및 [Docker](https://github.com/docker/docker)와 같은 일부 인기있는 프로젝트는, 사업 성장을 지원하기 위해 벤처 캐피탈을 조성하기까지 합니다.
+[npm](https://github.com/npm/cli) 및 [Docker](https://github.com/docker/docker)와 같은 일부 인기있는 프로젝트는, 사업 성장을 지원하기 위해 벤처 캐피탈을 조성하기까지 합니다.
 
 ### 보조금 신청하기
 
@@ -147,7 +143,7 @@ I was looking for a "hobby" programming project that would keep me occupied duri
 
 보다 자세한 옵션과 사례 연구를 원할 경우, @nayafia [가이드 작성](https://github.com/nayafia/lemonade-stand)을 통해 오픈소스 저작물에 대한 대가를 받을 수 있습니다. 다른 유형의 기금에는 여러 가지 기술이 필요하기 때문에 어떤 옵션이 가장 적합한 지 알아 내려면 장점을 고려하십시오.
 
-## Building a case for financial support
+## 재정적 지원을 받기 위한 근거를 갖추기
 
 프로젝트가 새로운 아이디어이든, 수년간 지속되어 왔든 타겟 기금 제공자를 파악하고 중요한 사건을 만드는데 중요하게 고려되야합니다.
 
@@ -181,6 +177,6 @@ I was looking for a "hobby" programming project that would keep me occupied duri
   </p>
 </aside>
 
-## Experiment and don't give up
+## 시도해 보고 포기하지 마세요!
 
 오픈소스 프로젝트, 비영리 단체, 소프트웨어 스타트업 등 많은 돈을 모으는 것은 쉽지 않습니다. 대부분의 경우 창의력을 발휘해야합니다. 어떻게 돈을 받고, 연구를 하고, 재밌는 사람의 신발에 몸을 두는지를 확인하면 자금 지원에 대한 설득력있는 사례를 구축하는 데 도움이됩니다.

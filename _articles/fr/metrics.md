@@ -1,14 +1,8 @@
 ---
 lang: fr
-title: Metriques Open Source
-description: Prendre des décisions éclairées pour aider votre projet open source à prospérer en mesurant et en suivant son succès.
+title: Métriques Open Source
+description: Prendre des décisions éclairées pour aider votre projet Open Source à prospérer en mesurant et en suivant son succès.
 class: metrics
-toc:
-  pourquoi-tout-mesurer: Pourquoi tout mesurer"
-  d&eacute;couverte: "D&eacute;couverte"
-  usage: "Usage"
-  r&eacute;tention: "R&eacute;tention"
-  activit&eacute;-de-responsable: "Activit&eacute; de responsable"
 order: 9
 image: /assets/images/cards/metrics.png
 related:

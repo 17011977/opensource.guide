@@ -1,15 +1,8 @@
 ---
 lang: fr
-title: Bonnes Pratiques pour les Responsables
-description: Facilitez vous la vie en tant que responsable open source, de la documentation des processus à l'exploitation de votre communauté.
+title: Bonnes pratiques pour les responsables
+description: Facilitez-vous la vie en tant que responsable Open Source, de la documentation des processus à l'exploitation de votre communauté.
 class: best-practices
-toc:
-  que-signifie-&ecirc;tre-un-responsable: "Que signifie &ecirc;tre un responsable"
-  documentez-vos-processus: "Documentez vos processus"
-  apprendre-&agrave;-dire-non: "Apprendre &agrave; dire non"
-  tirez-parti-de-votre-communauté: "Tirez parti de votre communauté"
-  donnez-le-aux-robots: "Donnez le aux robots"
-  il-est-normal-de-faire-pause: "Il est normal de faire pause"
 order: 5
 image: /assets/images/cards/best-practices.png
 related:
@@ -112,7 +105,7 @@ Si vous recevez une contribution que vous ne voulez pas accepter, votre premièr
 
 Ne laissez pas une contribution indésirable ouverte parce que vous avez un sentiment de culpabilité ou que vous voulez être gentil. Au fil du temps, vos issues sans réponse et les PRs rendront le travail sur votre projet beaucoup plus stressant et intimidant.
 
-Il est préférable de fermer immédiatement les contributions que vous ne voulez pas accepter. Si votre projet souffre déjà d'un important retard, @steveklabnik propose des suggestions pour [comment trier efficacement les issues](http://words.steveklabnik.com/how-to-be-an-open-source-gardener).
+Il est préférable de fermer immédiatement les contributions que vous ne voulez pas accepter. Si votre projet souffre déjà d'un important retard, @steveklabnik propose des suggestions pour [comment trier efficacement les issues](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
 
 Deuxièmement, ignorer les contributions envoie un signal négatif à votre communauté. Contribuer à un projet peut être intimidant, surtout s'il s'agit de la première fois. Même si vous n'acceptez pas leur contribution, remerciez la personne derrière et remerciez-la de son intérêt. C'est un gros compliment!
 
@@ -180,7 +173,7 @@ Encourager les autres à [partager la propriété du projet](../building-communi
   <img src="https://avatars.githubusercontent.com/lmccart?s=180" class="pquote-avatar" alt="avatar">
   Je disais: "Oui, n'importe qui peut être impliqué, vous n'avez pas besoin d'avoir beaucoup d'expertise en codage [...]". Nous avions des gens qui s'inscrivaient pour venir [à un événement] et c'est à ce moment que je me demandais vraiment: est-ce vrai, ce que j'ai dit ? Il y aura 40 personnes qui se présenteront, et ce n'est pas comme si je pouvais m'asseoir avec chacune d'entre elles... Mais les gens se sont réunis, et ça a juste fonctionné. Dès qu'une personne a compris quelque chose, elle peut l'enseigner à son voisin.
   <p markdown="1" class="pquote-credit">
-—  @lmccart, ["What Does "Open Source" Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39#.chnjlag7p)
+—  @lmccart, ["What Does "Open Source" Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39)
   </p>
 </aside>
 
@@ -188,7 +181,7 @@ Si vous avez besoin de quitter votre projet, que ce soit en pause ou en permanen
 
 Si d'autres personnes sont enthousiastes à l'égard de sa direction, donnez-leur l'autorisation de s'engager ou remettez officiellement le contrôle à quelqu'un d'autre. Si quelqu'un a forké votre projet et le maintient activement ailleurs, envisagez de créer un lien vers le fork de votre projet d'origine. C'est génial que tant de gens veulent que votre projet continue à vivre !
 
-@progrium [a trouvé que](http://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) documentant la vision de son projet, [Dokku](https://github.com/dokku/dokku), a aidé à atteindre ces objectifs même après s'être retiré du projet:
+@progrium [a trouvé que](https://web.archive.org/web/20151204215958/https://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) documentant la vision de son projet, [Dokku](https://github.com/dokku/dokku), a aidé à atteindre ces objectifs même après s'être retiré du projet:
 
 > J'ai écrit une page wiki décrivant ce que je voulais et pourquoi je le voulais. Pour une raison ou une autre, j'ai été surpris de constater que les responsables ont commencé à faire avancer le projet dans cette direction ! Est-ce arrivé exactement comment je le ferais ? Pas toujours. Mais cela rapprochait encore le projet de ce que j'avais écrit.
 
@@ -242,7 +235,7 @@ Il y a une [variété d'outils disponibles](https://github.com/showcases/tools-f
 * [mention-bot](https://github.com/facebook/mention-bot) mentionne les reviewers potentiels pour les pull requests
 * [Danger](https://github.com/danger/danger) permet d'automatiser les revues de code
 
-Pour les rapports de bogues et autres contributions communes, GitHub a des [Modèles d'issues et modèles de pull requests](https://github.com/blog/2111-issue-and-pull-request-templates), que vous pouvez créer pour rationaliser la communication que vous recevez. @TalAter a fait un guide [Choisissez Votre Propre Aventure] (https://www.talater.com/open-source-templates/#/) pour vous aider à rédiger vos issues et vos modèles de PR.
+Pour les rapports de bogues et autres contributions communes, GitHub a des [Modèles d'issues et modèles de pull requests](https://github.com/blog/2111-issue-and-pull-request-templates), que vous pouvez créer pour rationaliser la communication que vous recevez. @TalAter a fait un guide [Choisissez Votre Propre Aventure] (<https://www.talater.com/open-source-templates/#/>) pour vous aider à rédiger vos issues et vos modèles de PR.
 
 Pour gérer vos notifications par e-mail, vous pouvez configurer [des filtres e-mail](https://github.com/blog/2203-email-updates-about-your-own-activity) pour organiser par priorité.
 
@@ -268,7 +261,7 @@ Tout comme n'importe quel autre type de travail, prendre des pauses régulières
   <img src="https://avatars.githubusercontent.com/danielbachhuber?s=180" class="pquote-avatar" alt="avatar">
   En maintenant le WP-CLI, j'ai découvert que je devais d'abord me rendre heureux et fixer des limites claires sur mon implication. Le meilleur équilibre que j'ai trouvé est de 2 à 5 heures par semaine, dans le cadre de mon horaire de travail normal. Cela maintient ma participation en tant que passion, sans le sentir trop comme du travail. Parce que je priorise les problèmes sur lesquels je travaille, je peux faire des progrès réguliers sur ce que je pense être le plus important.
   <p markdown="1" class="pquote-credit">
-— @danielbachhuber, ["My condolences, you're now the maintainer of a popular open source project"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
+— @danielbachhuber, ["My condolences, you're now the maintainer of a popular open source project"](https://web.archive.org/web/20220306014037/https://danielbachhuber.com/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
   </p>
 </aside>
 
